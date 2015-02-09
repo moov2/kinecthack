@@ -1,0 +1,30 @@
+/**
+ * -----------------------------------------------------------------------------
+ *   $HEADER
+ * -----------------------------------------------------------------------------
+ */
+
+/**
+ * main header logo image
+ */
+.header__title-image {
+    display:block;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+
+/**
+ * event details panel
+ */
+.header__details-panel{
+  display:block;
+  margin: 0 auto;
+  
+  > li {
+    display: inline-block;
+    h4 {
+      text-transform: uppercase;
+    }
+  }
+}

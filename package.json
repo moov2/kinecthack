@@ -1,0 +1,15 @@
+{
+    "name": "css-start",
+    "version": "0.0.0",
+    "description": "CSS template to help as a start position.",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/moov2/css-start"
+    },
+    "author": "Moov2",
+    "devDependencies": {
+        "gulp": "~3.8.7",
+        "gulp-autoprefixer": "0.0.8",
+        "gulp-ruby-sass": "git+https://github.com/sindresorhus/gulp-ruby-sass.git"
+    }
+}
