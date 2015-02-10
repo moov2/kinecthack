@@ -4,6 +4,11 @@
  * -----------------------------------------------------------------------------
  */
 
+header {
+  height: 740px;
+  background: $background-color-white;
+}
+
 /**
  * main header logo image
  */
@@ -20,7 +25,7 @@
 .header__details-panel{
   display:block;
   margin: 0 auto;
-  
+
   > li {
     display: inline-block;
     h4 {
