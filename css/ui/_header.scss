@@ -6,8 +6,50 @@
 
 header {
   height: 740px;
+  padding-top: 200px;
   background: $background-color-white;
+  box-sizing: border-box;
 }
+
+.event--overview {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.event--snapshot {
+  background-color: $background-color-dark-blue-transparent;
+  color: white;
+  width: 100%;
+  padding: $base-spacing 0;
+  text-align: center;
+}
+
+.event--snapshot li {
+  list-style: none;
+  display: inline-block;
+  width: auto;
+  margin: 0 1em;
+  height: 40px;
+  padding-top: 2px;
+  padding-left: 50px;
+  box-sizing: border-box;
+  font-size: 0.6em;
+  text-align: left;
+}
+
+.event--snapshot h4 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.event--snapshot a {
+  color: white;
+}
+
+.event--location { background: url(../images/icon-location.png) 0 0 no-repeat; }
+.event--date { background: url(../images/icon-date.png) 0 0 no-repeat; }
+.event--tickets { background: url(../images/icon-tickets.png) 0 0 no-repeat; }
+.event--people { background: url(../images/icon-people.png) 0 0 no-repeat; }
 
 /**
  * main header logo image

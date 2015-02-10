@@ -18,6 +18,9 @@
  * IMAGES>................... Styling the `img` tag.
  * PARAGRAPHS................ Styling the `p` tag.
  *
+ * ALIGNMENT................. Classes to help with alignment.
+ * SPACING................... Margin and padding.
+ *
  * HEADER.................... Styles for the header section.
  * SECTIONS.................. Styles for the rest of the page sections.
  */
@@ -42,6 +45,9 @@
 @import "base/headings";
 @import "base/images";
 @import "base/paragraphs";
+
+@import "helpers/alignment";
+@import "helpers/spacing";
 
 @import "ui/header";
 @import "ui/sections";

@@ -1,0 +1,9 @@
+/**
+ * -----------------------------------------------------------------------------
+ *   $SPACING
+ * -----------------------------------------------------------------------------
+ */
+
+.margin--bottom-none { margin-bottom: 0; }
+.margin--bottom { @include rem(margin-bottom, $base-spacing); }
+.margin--bottom-double { @include rem(margin-bottom, $base-spacing * 2); }
