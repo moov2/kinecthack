@@ -42,14 +42,47 @@ header {
   text-transform: uppercase;
 }
 
-.event--snapshot a {
-  color: white;
-}
+.event--snapshot a { color: white; }
+.event--snapshot a:hover { text-decoration: none; }
 
 .event--location { background: url(../images/icon-location.png) 0 0 no-repeat; }
 .event--date { background: url(../images/icon-date.png) 0 0 no-repeat; }
 .event--tickets { background: url(../images/icon-tickets.png) 0 0 no-repeat; }
 .event--people { background: url(../images/icon-people.png) 0 0 no-repeat; }
+
+.event--countdown {
+  list-style: none;
+  text-align: center;
+}
+
+.event--countdown li {
+  display: inline-block;
+  padding: 0.3em 1em;
+  border-right: 1px solid #eaeaea;
+  font-size: 40px;
+  font-weight: bold;
+  color: $color-light-blue;
+}
+
+.event--countdown li:last-child { border-right: 0; }
+
+.event--countdown small {
+  display: block;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.shapes { position: absolute; }
+
+.shapes-left {
+  top: 0;
+  left: 0;
+}
+
+.shapes-right {
+  top: 0;
+  right: 0;
+}
 
 /**
  * main header logo image
