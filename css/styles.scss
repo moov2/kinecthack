@@ -17,6 +17,9 @@
  * HEADINGS.................. Styling of headings
  * IMAGES>................... Styling the `img` tag.
  * PARAGRAPHS................ Styling the `p` tag.
+ *
+ * HEADER.................... Styles for the header section.
+ * SECTIONS.................. Styles for the rest of the page sections.
  */
 
 @import "_vars";
@@ -39,4 +42,6 @@
 @import "base/headings";
 @import "base/images";
 @import "base/paragraphs";
+
 @import "ui/header";
+@import "ui/sections";
