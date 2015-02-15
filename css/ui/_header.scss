@@ -23,11 +23,11 @@ header {
 .event--snapshot {
   background-color: $background-color-dark-blue-transparent;
   color: white;
+  font-size: 0.6em;
+  padding-top: $base-spacing;
   width: 100%;
-  padding: $base-spacing 1em;
   
   @media screen and (min-width: $break-small) {
-    font-size: 0.6em;
     text-align: center;
   }
 }
