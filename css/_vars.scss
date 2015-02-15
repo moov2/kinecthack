@@ -38,3 +38,8 @@ $color-light-blue: #00bcf2;
 $background-color-white: #fff;
 $background-color-dark-blue: #002e3b;
 $background-color-dark-blue-transparent: rgba(0, 46, 59, 0.9);
+
+/**
+ * Break points
+ */
+$break-small: 321px; // because we're mobile first and using min-width we go 1px over

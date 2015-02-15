@@ -63,7 +63,7 @@ var handleError = function (err) {
  */
 gulp.task('styles', function () {
     gulp.src(src(paths.scss))
-        .pipe(sass({ sourcemap: 'none' }))
+        .pipe(sass())
             .on('error', handleError)
         .pipe(prefix('last 1 version', '> 1%', 'ie 8'))
         .pipe(gulp.dest(src()));

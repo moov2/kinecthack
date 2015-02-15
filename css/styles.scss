@@ -23,13 +23,14 @@
  *
  * HEADER.................... Styles for the header section.
  * SECTIONS.................. Styles for the rest of the page sections.
+ * LOGO...................... Styles for site logo
  */
 
 @import "_vars";
 
 /**
  * -----------------------------------------------------------------------------
- *   $NORMALIZE
+ *   $NORMALIZE 
  * -----------------------------------------------------------------------------
  */
 
@@ -51,3 +52,6 @@
 
 @import "ui/header";
 @import "ui/sections";
+@import "ui/logo";
+
+/*# sourceMappingURL=styles.css.map */
