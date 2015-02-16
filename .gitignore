@@ -7,3 +7,5 @@
 
 # CSS file can be created by running gulp using `gulp` command.
 *.css
+# map file created by running gulp too
+*.css.map
