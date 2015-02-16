@@ -24,6 +24,7 @@
  * HEADER.................... Styles for the header section.
  * SECTIONS.................. Styles for the rest of the page sections.
  * LOGO...................... Styles for site logo
+ * EVENT OVERVIEW............ Styles for event overview
  */
 
 @import "_vars";
@@ -53,5 +54,7 @@
 @import "ui/header";
 @import "ui/sections";
 @import "ui/logo";
+@import "ui/event-snapshot";
+@import "ui/event-countdown";
 
 /*# sourceMappingURL=styles.css.map */

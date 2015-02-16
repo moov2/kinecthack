@@ -14,76 +14,13 @@ header {
   }
 }
 
-.event--overview {
+.event-overview {
   margin: 0 auto;
   max-width: 800px;
   position: relative;
 }
 
-.event--snapshot {
-  background-color: $background-color-dark-blue-transparent;
-  color: white;
-  font-size: 0.6em;
-  padding-top: $base-spacing;
-  width: 100%;
-  
-  @media screen and (min-width: $break-small) {
-    text-align: center;
-  }
-}
 
-.event--snapshot li {
-  list-style: none;
-  width: auto;
-  margin: 0 0.2em;
-  height: 60px;
-  padding-top: 2px;
-  padding-left: 4em;
-  box-sizing: border-box;
-  text-align: left;
-  @media screen and (min-width: $break-small) {
-    display:inline-block;
-  }
-}
-
-.event--snapshot h4 {
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-.event--snapshot a { color: white; }
-.event--snapshot a:hover { text-decoration: none; }
-
-.event--location { background: url(../images/icon-location.png) 0 0 no-repeat; }
-.event--date { background: url(../images/icon-date.png) 0 0 no-repeat; }
-.event--tickets { background: url(../images/icon-tickets.png) 0 0 no-repeat; }
-.event--people { background: url(../images/icon-people.png) 0 0 no-repeat; }
-
-.event--countdown {
-  list-style: none;
-  text-align: center;
-}
-
-.event--countdown li {
-  display: inline-block;
-  padding: 0.3em 0.2em;
-  border-right: 1px solid #eaeaea;
-  font-size: 1em;
-  font-weight: bold;
-  color: $color-light-blue;
-  @media screen and (min-width: $break-small) {
-    padding: 0.3em 1em;
-    font-size: 1.7em;
-  }
-}
-
-.event--countdown li:last-child { border-right: 0; }
-
-.event--countdown small {
-  display: block;
-  text-transform: uppercase;
-  font-size: 14px;
-}
 
 .shapes { position: absolute; }
 
