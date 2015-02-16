@@ -13,3 +13,9 @@ The sass is compiled to css using Gulp, simply run the followign command to conv
     gulp
 
 You're done!
+
+Run from a simple http server run from repo root (assumes [Python](https://www.python.org/downloads/) installed):
+
+    python -m SimpleHTTPServer 8000
+
+Then visit http://localhost:8000 in your browser
