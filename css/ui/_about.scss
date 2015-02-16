@@ -1,10 +1,17 @@
 /**
  * -----------------------------------------------------------------------------
- *   $SECTIONS
+ *   $about
  * -----------------------------------------------------------------------------
  */
 
-.section--about {
-    height: 740px;
+.about {
     background-color: $background-color-dark-blue;
+    color: $font-color-light;
+    padding-top: $base-spacing;
+    text-align: center;
+
+    @media screen and (min-width: $break-small) {
+        height: 700px;
+        padding-top: 200px;
+    }
 }

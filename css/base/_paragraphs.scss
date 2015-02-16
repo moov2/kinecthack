@@ -6,4 +6,6 @@
 
 p {
     @include rem(margin-bottom, $base-spacing);
+    margin: 0 auto;
+    max-width: 740px;
 }

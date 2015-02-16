@@ -1,12 +1,9 @@
 /**
  * -----------------------------------------------------------------------------
- *   $IMAGES
+ *   $HEADINGS
  * -----------------------------------------------------------------------------
  */
 
-/**
- * Title is hidden because there is an image version
- */
-.header__title--hidden{
-    display: none;
+h2 {
+    padding: $base-spacing 0;
 }
