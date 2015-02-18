@@ -5,8 +5,8 @@
  */
 
 .event-snapshot {
-  background-color: $background-color-dark-blue-transparent;
-  color: white;
+  background-color: $color-event-snapshot-background;
+  color: $color-event-snapshot-font;
   font-size: 1.6rem;
   padding-top: $base-spacing;
   width: 100%;
@@ -16,29 +16,31 @@
   }
 }
 
-.event-snapshot__item {
-  list-style: none;
-  width: auto;
-  margin: 0 10px;
-  height: 60px;
-  padding-top: 2px;
-  padding-left: 50px;
-  box-sizing: border-box;
-  text-align: left;
-  @media screen and (min-width: $break-small) {
-    display:inline-block;
+  .event-snapshot__item {
+    @include rem('margin-left', $base-spacing);
+    @include rem('margin-right', $base-spacing);
+
+    list-style: none;
+    width: auto;
+    height: 60px;
+    padding-top: 2px;
+    padding-left: 50px;
+    box-sizing: border-box;
+    text-align: left;
+    @media screen and (min-width: $break-small) {
+      display:inline-block;
+    }
   }
-}
 
-.event-snapshot__item h4 {
-  font-weight: bold;
-  text-transform: uppercase;
-}
+  .event-snapshot__item h4 {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
 
-.event-snapshot__item a { color: white; }
-.event-snapshot__item a:hover { text-decoration: none; }
+  .event-snapshot__item a { color: white; }
+  .event-snapshot__item a:hover { text-decoration: none; }
 
-.event-snapshot__item--location { background: url(../images/icon-location.png) 0 0 no-repeat; }
-.event-snapshot__item--date { background: url(../images/icon-date.png) 0 0 no-repeat; }
-.event-snapshot__item--tickets { background: url(../images/icon-tickets.png) 0 0 no-repeat; }
-.event-snapshot__item--people { background: url(../images/icon-people.png) 0 0 no-repeat; }
+  .event-snapshot__item--location { background: url(../images/icon-location.png) 0 0 no-repeat; }
+  .event-snapshot__item--date { background: url(../images/icon-date.png) 0 0 no-repeat; }
+  .event-snapshot__item--tickets { background: url(../images/icon-tickets.png) 0 0 no-repeat; }
+  .event-snapshot__item--people { background: url(../images/icon-people.png) 0 0 no-repeat; }

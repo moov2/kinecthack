@@ -1,0 +1,23 @@
+/**
+ * -----------------------------------------------------------------------------
+ *   $SPONSOR SECTION
+ * -----------------------------------------------------------------------------
+ */
+.sponsors {
+    color:$color-sponsor-font;
+    font-size: $font-size-base*0.9;
+}
+
+.sponsor {
+    @include rem('margin-bottom', $base-spacing);
+    display:inline-block;
+    height: 300px;
+}
+
+    .sponsor--organiser{
+        background-color: $color-sponsor-organiser-background;
+    }
+
+.sponsor-logo {
+    @include rem('margin-bottom', $base-spacing*4);
+}

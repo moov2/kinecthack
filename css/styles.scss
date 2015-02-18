@@ -21,10 +21,13 @@
  * ALIGNMENT................. Classes to help with alignment.
  * SPACING................... Margin and padding.
  *
- * HEADER.................... Styles for the header section.
- * SECTIONS.................. Styles for the rest of the page sections.
- * LOGO...................... Styles for site logo
- * EVENT OVERVIEW............ Styles for event overview
+ * HEADER.................... Header section.
+ * LOGO...................... Site logo.
+ * EVENT SNAPSHOT............ Event snapshot.
+ * EVENT COUNTDOWN........... Event countdown.
+ * ABOUT..................... About section.
+ * SPONSOR HEADING........... Sponsor section headings.
+ * SPONSORS.................. Sponsor section stytles.
  */
 
 @import "_vars";
@@ -56,5 +59,7 @@
 @import "ui/event-snapshot";
 @import "ui/event-countdown";
 @import "ui/about";
+@import "ui/sponsor-heading";
+@import "ui/sponsors";
 
 /*# sourceMappingURL=styles.css.map */

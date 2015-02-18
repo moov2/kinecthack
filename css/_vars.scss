@@ -8,7 +8,7 @@
  * Unit that all spacing should be configured from.
  */
 
-$base-spacing: 1.6rem;
+$base-spacing: 1rem;
 
 /**
  * Image settings.
@@ -31,6 +31,10 @@ $font-size-base: 1.6rem;
  */
 
 $color-light-blue: #00bcf2;
+$color-event-snapshot-background: #002e3b;
+$color-event-snapshot-font: white;
+$color-sponsor-font:gray;
+$color-sponsor-organiser-background:lightgray;
 
 /**
  * Background colours for each section.
