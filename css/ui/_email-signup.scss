@@ -1,0 +1,16 @@
+/**
+ * -----------------------------------------------------------------------------
+ *   $EMAIL SIGNUP
+ * -----------------------------------------------------------------------------
+ */
+
+ .email-signup {
+     @include rem(padding-bottom, $base-spacing*2);
+     @include rem(padding-top, $base-spacing*2);
+
+     display:inline-block;
+ }
+
+    .email-signup__label {
+        font-weight: bold;
+    }

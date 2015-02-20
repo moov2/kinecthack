@@ -1,0 +1,20 @@
+/**
+ * -----------------------------------------------------------------------------
+ *   $AVATARS
+ * -----------------------------------------------------------------------------
+ */
+
+.avatar {
+    @include rem(margin-bottom, $base-spacing);
+    @include rem(width, 130px);
+
+    border-radius: 50%;
+
+    @media all and (max-width: $break-small) {
+        width: auto;
+    }
+}
+
+    .avatar--small {
+        @include rem(max-width, 50px);
+    }

@@ -1,0 +1,20 @@
+/**
+ * -----------------------------------------------------------------------------
+ *   $EVENT DETAILS
+ * -----------------------------------------------------------------------------
+ */
+
+.event-details {
+    background-color: $color-faqs-background;
+    color:$font-color-faqs;
+}
+
+.event-detail {
+    display:inline-block;
+    text-align:center;
+    width: 100%;
+
+    @media screen and (min-width: $break-small) {
+        width: 50%;
+    }
+}

@@ -9,15 +9,35 @@
 }
 
 .sponsor {
-    @include rem('margin-bottom', $base-spacing);
+    @include rem('padding-top', $base-spacing*4);
+    @include rem('padding-bottom', $base-spacing*4);
+    
     display:inline-block;
-    height: 300px;
+    text-align: center;
+    width: 100%;
+
+    @media screen and (min-width: $break-small) {
+        width: 50%;
+    }
 }
 
-    .sponsor--organiser{
-        background-color: $color-sponsor-organiser-background;
+    .sponsor__heading {
+         @include rem('margin-bottom', $base-spacing*4);
+         color: $color-sponsor-font;
+         text-align:center;
+         text-transform:uppercase;
     }
 
-.sponsor-logo {
-    @include rem('margin-bottom', $base-spacing*4);
+    .sponsor__logo {
+        @include rem('margin-bottom', $base-spacing*4);
+        max-width:90%;
+    }
+
+    .sponsor__link {
+        color: $color-sponsor-font;
+    }
+
+.sponsor--organiser{
+    background-color: $color-sponsor-organiser-background;
 }
+

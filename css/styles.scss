@@ -17,6 +17,7 @@
  * HEADINGS.................. Styling of headings
  * IMAGES>................... Styling the `img` tag.
  * PARAGRAPHS................ Styling the `p` tag.
+ * LINKS..................... Styling the `a` tag.
  *
  * ALIGNMENT................. Classes to help with alignment.
  * SPACING................... Margin and padding.
@@ -26,8 +27,12 @@
  * EVENT SNAPSHOT............ Event snapshot.
  * EVENT COUNTDOWN........... Event countdown.
  * ABOUT..................... About section.
- * SPONSOR HEADING........... Sponsor section headings.
- * SPONSORS.................. Sponsor section stytles.
+ * SPONSORS.................. Sponsor section styles.
+ * AVATARS................... Avatar styles.
+ * TEXT...................... Reusable text styles.
+ * PEOPLE.................... People section styles.
+ * EMAIL SIGNUP.............. Email signup section styles.
+ * EVENT DETAILS............. Event details (faqs and news) styles.
  */
 
 @import "_vars";
@@ -50,16 +55,24 @@
 @import "base/headings";
 @import "base/images";
 @import "base/paragraphs";
+@import "base/links";
 
 @import "helpers/alignment";
 @import "helpers/spacing";
+
+@import "ui/lists/base";
+@import "ui/lists/horizontal";
 
 @import "ui/header";
 @import "ui/logo";
 @import "ui/event-snapshot";
 @import "ui/event-countdown";
 @import "ui/about";
-@import "ui/sponsor-heading";
 @import "ui/sponsors";
+@import "ui/avatars";
+@import "ui/text";
+@import "ui/people";
+@import "ui/email-signup";
+@import "ui/event-details";
 
 /*# sourceMappingURL=styles.css.map */

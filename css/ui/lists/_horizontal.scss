@@ -1,0 +1,39 @@
+/**
+ * -----------------------------------------------------------------------------
+ *   $LIST/HORIZONTAL
+ * -----------------------------------------------------------------------------
+ */
+
+/**
+ * Easiest way to line a collection of elements alongside each other. Elements
+ * can vary in width & height and will wrap when breaking the bounds of the parent.
+ *
+ *  <ul class="list-horizontal">
+ *      <li>Item A</li>
+ *      <li>Item B</li>
+ *      <li>Item C</li>
+ * </ul>
+ */
+.list-horizontal,
+%list-horizontal {
+    @extend .cf;
+    @extend %list;
+
+    > li {
+        box-sizing: border-box;
+        float: left;
+        margin-right: $base-spacing;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        @media screen and (min-width: $break-small) {
+            margin-right: $base-spacing*2;
+        }
+    }
+}
+
+.list-horizontal--spaced > li {
+    @include rem(margin-right, $base-spacing);
+}

@@ -1,0 +1,15 @@
+/**
+ * -----------------------------------------------------------------------------
+ *   $PEOPLE
+ * -----------------------------------------------------------------------------
+ */
+
+.people {
+    background-color: $background-color-people;
+    color: $font-color-people;
+    text-align: center;
+}
+
+    .people__list {
+        display: inline-block;
+    }

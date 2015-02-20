@@ -1,0 +1,17 @@
+/**
+ * -----------------------------------------------------------------------------
+ *   $TEXT
+ * -----------------------------------------------------------------------------
+ */
+
+
+.text--block,
+.text--block-small,
+.text--block-large {
+    @include rem(margin-bottom, $base-spacing);
+    @include rem(max-width, $text-block-width);
+
+    line-height: $text-block-line-height * 1.2;
+
+    width: 100%;
+}
