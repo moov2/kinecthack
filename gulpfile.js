@@ -1,3 +1,4 @@
+/// <vs SolutionOpened='default' />
 /**
  * -----------------------------------------------------------------------------
  * Loads in gulp, quite important for a gulp build file.

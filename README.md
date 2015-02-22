@@ -14,7 +14,14 @@ The sass is compiled to css using Gulp, simply run the followign command to conv
 
 You're done!
 
-Run from a simple http server run from repo root (assumes [Python](https://www.python.org/downloads/) installed):
+
+## Run from VS
+Make sure you have the Task Runner Explorer extension installed (Tools > Extensions and Updates > Select 'Online' and search 'Task Runner Explorer').
+
+Simply open the sln (gulp should run automatically) and run the website.
+
+## Run from Python
+Run from a simple python http server, in command line from repo root (assumes [Python](https://www.python.org/downloads/) installed):
 
     python -m SimpleHTTPServer 8000
 

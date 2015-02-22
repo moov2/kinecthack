@@ -10,3 +10,4 @@
 # map file created by running gulp too
 *.css.map
 *Thumbs.db
+*.suo
